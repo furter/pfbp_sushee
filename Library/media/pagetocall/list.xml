@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<DIR>
+	<FILE>
+	    <NAME languageID='fre'>Galeries</NAME>
+	    <NAME languageID='eng'>Galleries</NAME>
+	    <INFO languageID='fre'>Ensemble de galeries</INFO>
+	    <INFO languageID='eng'>Group of galleries</INFO>
+	    <ICON></ICON>
+	    <PATH>Galleries.php</PATH>
+	    <UICONFIG/>
+	    <QUERY/>
+	</FILE>
+	<FILE>
+	    <NAME languageID='fre'>Galeries pour la presse</NAME>
+	    <NAME languageID='eng'>Press galleries</NAME>
+	    <INFO languageID='fre'></INFO>
+	    <INFO languageID='eng'></INFO>
+	    <ICON></ICON>
+	    <PATH>Press.php</PATH>
+	    <UICONFIG/>
+	    <QUERY/>
+	</FILE>
+	<FILE>
+	    <NAME languageID='fre'>Contacts</NAME>
+	    <NAME languageID='eng'>Contacts</NAME>
+	    <INFO languageID='fre'>Formulaire de recherche des contacts</INFO>
+	    <INFO languageID='eng'>Contacts search form</INFO>
+	    <ICON></ICON>
+	    <PATH>Contacts.php</PATH>
+	    <UICONFIG/>
+	    <QUERY/>
+	</FILE>
+<FILE>
+    <NAME languageID='fre'>Livres</NAME>
+    <NAME languageID='eng'>Books</NAME>
+    <INFO languageID='fre'>Formulaire de recherche sur les livres</INFO>
+    <INFO languageID='eng'>Books search form</INFO>
+    <ICON></ICON>
+    <PATH>Books.php</PATH>
+    <UICONFIG/>
+    <QUERY/>
+</FILE>
+<FILE>
+    <NAME languageID='fre'>Reglement</NAME>
+    <NAME languageID='eng'>Rules</NAME>
+    <INFO languageID='fre'></INFO>
+    <INFO languageID='eng'></INFO>
+    <ICON></ICON>
+    <PATH>Rules.php</PATH>
+    <UICONFIG/>
+    <QUERY/>
+</FILE>
+<FILE>
+    <NAME languageID='fre'>Contactez-nous</NAME>
+    <NAME languageID='eng'>Contact Us</NAME>
+    <INFO languageID='fre'>Formulaire de contact</INFO>
+    <INFO languageID='eng'>Contact Form</INFO>
+    <ICON></ICON>
+    <PATH>ContactForm.php</PATH>
+    <UICONFIG/>
+    <QUERY/>
+</FILE>
+<FILE>
+    <NAME languageID='fre'>Nouvelles</NAME>
+    <NAME languageID='eng'>News</NAME>
+    <INFO languageID='fre'>Page des news </INFO>
+    <INFO languageID='eng'>News page</INFO>
+    <ICON></ICON>
+    <PATH>NewsList.php</PATH>
+    <UICONFIG/>
+    <QUERY/>
+</FILE>
+<FILE>
+    <NAME languageID='fre'>Changement de langue</NAME>
+    <NAME languageID='eng'>Switch language</NAME>
+    <INFO languageID='fre'></INFO>
+    <INFO languageID='eng'></INFO>
+    <ICON></ICON>
+    <PATH>SwitchLanguage.php</PATH>
+    <UICONFIG/>
+    <QUERY/>
+</FILE>
+<FILE>
+    <NAME languageID='fre'>ADMIN - Exports des livres</NAME>
+    <NAME languageID='eng'>ADMIN - Books export</NAME>
+    <INFO languageID='fre'>Fiches multilingues pour traduction</INFO>
+    <INFO languageID='eng'>Multilingual files for translation</INFO>
+    <ICON></ICON>
+    <PATH>BooksExport.php</PATH>
+    <UICONFIG/>
+    <QUERY/>
+</FILE>
+<FILE>
+    <NAME languageID='fre'>Formulaire membre jury</NAME>
+    <NAME languageID='eng'>Jury member form</NAME>
+    <INFO languageID='fre'></INFO>
+    <INFO languageID='eng'></INFO>
+    <ICON></ICON>
+    <PATH>JuryMemberForm.php</PATH>
+    <UICONFIG/>
+    <QUERY/>
+</FILE>
+<FILE>
+    <NAME languageID='fre'>Annonce Laureats 2010</NAME>
+    <NAME languageID='eng'>2010 winners announcement</NAME>
+    <INFO languageID='fre'></INFO>
+    <INFO languageID='eng'></INFO>
+    <ICON></ICON>
+    <PATH>2010.php</PATH>
+    <UICONFIG/>
+    <QUERY/>
+</FILE>
+</DIR>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<QUERY>
+	<!-- languages menu -->
+	<SEARCH name="published_languages" refresh="daily">
+		<LANGUAGES profile="Media"/>
+	</SEARCH>
+	<!-- microlabels -->
+	<SEARCH name="labels" refresh="weekly">
+		<LABELS/>
+	</SEARCH>
+	<GET refresh="monthly"><MONTHS/></GET>
+	<GET refresh="monthly"><DAYS/></GET>
+	<GET refresh="monthly"><COUNTRIES/></GET>
+</QUERY>

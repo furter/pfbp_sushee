@@ -1,0 +1,106 @@
+.bodytext{
+	fre:Corps de texte;
+	eng:Bodytext;
+		font-size:11; 
+		font-family:Lucida Grande,Helvetica,Arial; 
+		color:#000000;
+		leading:0;
+		}
+.title{
+	fre:Titre;
+	eng:Title;
+		font-size:16; 
+		font-family:Lucida Grande,Helvetica,Arial;
+		font-weight:normal;
+		font-weight:bold
+		color:#000000;
+		leading:0;
+		}
+.subtitle{
+	fre:Sous-titre;
+	eng:Subtitle;
+		paragraph-style:true;
+		font-size:15;
+		font-family:Lucida Grande,Helvetica,Arial;
+		font-weight:normal;
+		color:#330000;
+}
+.heading1{
+	fre:En-tete 1;
+	eng:Heading 1;
+		paragraph-style:true;
+		font-size:14;
+		font-family:Lucida Grande,Helvetica,Arial;
+		font-weight:bold;
+		color:#003300;
+}
+.heading2{
+	fre:En-tete 2;
+	eng:Heading 2;
+		paragraph-style:true;
+		font-size:13;
+		font-family:Lucida Grande,Helvetica,Arial;
+		font-weight:bold;
+		color:#000033;
+}
+.quotation{
+	fre:Citation;
+	eng:Quotation;
+		font-size:11;
+		font-family:Helvetica,Arial; 
+		font-style:italic;
+		font-weight:normal;
+		color:#444444;
+}
+.example {
+	fre:Exemple;
+	eng:Example;
+		font-size:10;
+		font-family:Lucida Grande,Helvetica,Arial; 
+		font-style:normal;
+		font-weight:normal;
+		color:#666666;
+		leading:0;
+}
+.list_item{
+	fre:Liste;
+	eng:List;
+		list-style:disc;
+		font-size:11; 
+		font-family:Lucida Grande,Helvetica,Arial;
+		color:#000000;
+		leading:0;
+}
+
+
+
+.emphasis{
+	fre:Emphase;
+		character-style:true;
+		font-size:11;
+		font-family:Lucida Grande,Helvetica,Arial; 
+		font-style:normal;
+		font-weight:bold;
+		color:#330033;
+		leading:0;
+		}
+.comment{
+	fre:Commentaire;
+	eng:Comment;
+		character-style:true;
+		font-size:11;
+		font-family:Helvetica,Arial; 
+		font-style:italic;
+		font-weight:normal;
+		color:#330033;
+}
+.note{
+	fre:Petite note;
+	eng:Small note;
+		character-style:true;
+		font-size:10;
+		font-family:Lucida Grande,Helvetica,Arial;
+		font-style:normal;
+		font-weight:normal;
+		color:#999999;
+}

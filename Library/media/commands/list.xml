@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<DIR>
+<FILE>
+    <NAME>ResetMedia</NAME>
+    <INFO languageID='fre'>Remet à zéro tout le module Media : dépendances, types de médias, éléments.</INFO>
+    <INFO languageID='eng'>Reset the entire media module : dependencies, mediatypes and media themselves.</INFO>
+    <ICON></ICON>
+    <PATH>reset_media.php</PATH>
+    <UICONFIG/>
+    <QUERY/>
+</FILE>
+</DIR>
+

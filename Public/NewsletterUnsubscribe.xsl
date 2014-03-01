@@ -1,0 +1,1 @@
+<?xml version="1.0"?><xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">	<xsl:import href="common.xsl"/>	<xsl:template match="/RESPONSE">		<xsl:call-template name="html"/>	</xsl:template>	<xsl:template match="MEDIA" mode="content">		<div id="content">			<xsl:apply-templates select="." mode="body"/>		</div>	</xsl:template></xsl:stylesheet>

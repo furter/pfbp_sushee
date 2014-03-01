@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<DIR>
+	<FILE>
+		<NAME languageID="fre">Etiquettes Avery</NAME>
+		<NAME languageID="eng">Avery Stickers</NAME>
+		<INFO languageID="fre">Europe</INFO>
+		<INFO languageID="eng">Europe</INFO>
+		<UNIQUENAME>stickeravery</UNIQUENAME>
+		<PATH>stickers_avery.xsl</PATH>
+		<PREVIEW/>
+		<CONFIG>
+			<WITH depth="1">
+				<INFO get="true"/>
+				<DEPENDENCIES get="false"/>
+				<DESCRIPTIONS get="false"/>
+				<COMMENTS get="false"/>
+				<FREELINKS get="false"/>
+			</WITH>
+		</CONFIG>
+		<UICONFIG>
+			<StickerTemplate component="ComboBoxClass" eng="Avery Sticker" fre="Etiquettes Avery" isInput="false" visualDataColumn="label" outputDataColumn="value">
+				<labels>
+				  <label value="J8159" label="Avery J8159"/>
+				  <label value="J8160" label="Avery J8160"/>
+				  <label value="J8161" label="Avery J8161"/>
+				  <label value="J8162" label="Avery J8162"/>
+				  <label value="J8163" label="Avery J8163"/>
+				  <label value="J8165" label="Avery J8165"/>
+				  <label value="J8166" label="Avery J8166"/>
+				  <label value="J8167" label="Avery J8167"/>
+				  <label value="J8168" label="Avery J8168"/>
+				  <label value="L7159" label="Avery L7159"/>
+				  <label value="L7160" label="Avery L7160"/>
+				  <label value="L7161" label="Avery L7161"/>
+				  <label value="L7162" label="Avery L7162"/>
+				  <label value="L7163" label="Avery L7163"/>
+				  <label value="L7164" label="Avery L7164"/>
+				  <label value="L7165" label="Avery L7165"/>
+				  <label value="L7166" label="Avery L7166"/>
+				  <label value="L7167" label="Avery L7167"/>
+				  <label value="L7168" label="Avery L7168"/>
+				  <label value="L7169" label="Avery L7169"/>
+				  <label value="L7173" label="Avery L7173"/>
+				  <label value="L7418" label="Avery L7418"/>
+				  <label value="L7421" label="Avery L7421"/>
+				  <label value="L7551" label="Avery L7551"/>
+				  <label value="L7562" label="Avery L7562"/>
+				  <label value="L7563" label="Avery L7563"/>
+				  <label value="L7565" label="Avery L7565"/>
+				  <label value="L7651" label="Avery L7651"/>
+				  <label value="L7670" label="Avery L7670"/>
+				  <label value="L7680" label="Avery L7680"/>
+				  <label value="L7690" label="Avery L7690"/>
+				  <label value="L7690" label="Avery L7690"/>
+				  <label value="S3423" label="Avery 3423"/>
+				</labels>
+			</StickerTemplate>
+			<BackgroundImage fre="Image de fond" eng="Background image" component="FileBoxClass" filetype="svg,jpg"/>
+		</UICONFIG>
+		<QUERY>
+			<SEARCH name="labels"><LIST domain="ContactsApp"/></SEARCH>
+			<GET name="countries"><COUNTRIES/></GET>
+		</QUERY>
+	</FILE>
+	<FILE>
+		<NAME languageID="fre">Etiquettes Multicom</NAME>
+		<NAME languageID="eng">Multicom Stickers</NAME>
+		<INFO languageID="fre">Europe</INFO>
+		<INFO languageID="eng">Europe</INFO>
+		<UNIQUENAME>stickermulticom</UNIQUENAME>
+		<PATH>stickers_multicom.xsl</PATH>
+		<PREVIEW/>
+		<CONFIG>
+			<WITH depth="1">
+				<INFO get="true"/>
+				<DEPENDENCIES get="false"/>
+				<DESCRIPTIONS get="false"/>
+				<COMMENTS get="false"/>
+				<FREELINKS get="false"/>
+			</WITH>
+		</CONFIG>
+		<UICONFIG>
+			<StickerTemplate component="ComboBoxClass" eng="Avery Sticker" fre="Etiquettes Avery" isInput="false" visualDataColumn="label" outputDataColumn="value">
+				<labels>
+				  <label value="CL21E" label="Multicom CL21E"/>
+				</labels>
+			</StickerTemplate>
+			<BackgroundImage fre="Image de fond" eng="Background image" component="FileBoxClass" filetype="svg,jpg"/>
+		</UICONFIG>
+		<QUERY>
+			<SEARCH name="labels"><LIST domain="ContactsApp"/></SEARCH>
+			<GET name="countries"><COUNTRIES/></GET>
+		</QUERY>
+	</FILE>
+</DIR>

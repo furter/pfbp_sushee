@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<DIR>
+	<FILE>
+		<NAME languageID='fre'>Formulaire de candidature de livre</NAME>
+		<NAME languageID='eng'>Book submission form</NAME>
+		<INFO languageID='fre'>Etape du formulaire global de candidature de livre</INFO>
+		<INFO languageID='eng'>Step of the global book submission form</INFO>
+		<ICON></ICON>
+		<PATH>BookCandidate</PATH>
+		<UICONFIG/>
+		<QUERY/>
+	</FILE>
+	<FILE>
+		<NAME languageID='fre'>Remarque sur la candidature du livre</NAME>
+		<NAME languageID='eng'>Remarks on Book submission</NAME>
+		<INFO languageID='fre'>Si besoin de preciser ou corriger une info prealablement encodee</INFO>
+		<INFO languageID='eng'>If need to specify or correct encoded informations</INFO>
+		<ICON></ICON>
+		<PATH>BookRemarks</PATH>
+		<UICONFIG/>
+		<QUERY/>
+	</FILE>
+	<FILE>
+		<NAME languageID='fre'>Resume de la candidature du livre</NAME>
+		<NAME languageID='eng'>Summary of a book submission</NAME>
+		<INFO languageID='fre'>Etape du formulaire global de candidature de livre</INFO>
+		<INFO languageID='eng'>Step of the global book submission form</INFO>
+		<ICON></ICON>
+		<PATH>BookSubmissionSummary</PATH>
+		<UICONFIG/>
+		<QUERY/>
+	</FILE>
+	<FILE>
+		<NAME languageID='fre'>Confirmation de la candidature du livre</NAME>
+		<NAME languageID='eng'>Book submission confirmation</NAME>
+		<INFO languageID='fre'>Etape du formulaire global de candidature de livre</INFO>
+		<INFO languageID='eng'>Step of the global book submission form</INFO>
+		<ICON></ICON>
+		<PATH>BookSubmissionConfirm</PATH>
+		<UICONFIG/>
+		<QUERY/>
+	</FILE>
+</DIR>

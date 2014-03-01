@@ -1,0 +1,89 @@
+p{
+	fre:Corps de texte;
+	font-size:11; 
+	font-family:Lucida Grande,Helvetica,Arial; 
+	color:#000000;
+	leading:0;
+}
+.list_item{
+	fre:Point%20d%27une%20liste;
+	eng:Bullets list;
+		list-style:disc;
+		font-size:11; 
+		font-family:Lucida Grande,Helvetica,Arial;
+		color:#000000;
+		leading:0;
+}
+a{
+	fre:Lien vers site internet;
+	movieClip_ID:dependency_icon;
+	url-style:true;
+	font-size:11;
+	font-family:Lucida Grande,Helvetica,Arial;
+	font-style:normal;
+	font-weight:normal;
+	color:#000099;
+	text-decoration:underline;
+}
+.image{
+	fre:Image;
+	movieClip_ID:image_pic;
+		image-style:true;
+		font-size:11;
+		font-family:Helvetica,Arial;
+		font-style:italic;
+		font-weight:normal;
+		color:#993333;
+}
+.filestyle{
+	fre:Fichier;
+	movieClip_ID:file_pic;
+		file-style:true;
+		font-size:11;
+		font-family:Helvetica,Arial;
+		font-style:italic;
+		font-weight:bold;
+		color:#996699;
+}
+h1{
+	paragraph-style: true;
+	font-size:18; 
+	font-family: Arial;
+	font-weight: bold;
+	color: #000000;
+	leading: 0;
+}
+h2{
+	paragraph-style: true;
+	font-size:15; 
+	font-family: Arial; 
+	color: #000000;
+	font-weight: bold;
+	leading: 0;
+}
+h3{
+	paragraph-style: true;
+	font-size:13;
+	font-family: Arial; 
+	font-weight: bold;
+	color: #000000;
+	leading: 0;
+}
+strong{
+	character-style: true;
+	font-size:12;
+	font-family: Arial;
+	font-style: italic;
+	font-weight: bold;
+	color: #000000;
+	leading: 0;
+}
+em{
+	character-style: true;
+	font-size:11;
+	font-family: Arial;
+	font-style: italic;
+	font-weight: normal;
+	color: #0000cc;
+	leading: 0;
+}

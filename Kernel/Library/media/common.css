@@ -1,0 +1,17 @@
+body,h1,h2,h3,h4,h5,h6,ul,li,p,dl,dt,dd,img,select,label,img{padding:0;margin:0}
+
+body{font-size:11px;font-family:Verdana,sans-serif;background-color:#ededed;text-align:center;padding-bottom:10px}
+p{margin:0;padding:0;}
+h1{margin:0 0 10px;font-size:24px}
+h2{font-size:11px;margin:0 0 15px;}
+a{text-decoration:none;color:#000}
+img{margin:2px 0 15px 0}
+ul{list-style-type:none;margin:0 0 0 20px}
+li{margin:0 0 5px 0}
+dt{float:left;font-weight:bold;margin-right:5px;padding:10px 0}
+dd{float:left;margin:0 0 0 5px;text-align:right;padding:10px 0}
+dd a{color:#666}
+dd a.selected{font-weight:bold;color:#FF5D12}
+h2 a{height:14px;display:block;padding:1px 0 0 20px}
+a img{border:0}
+h1 em{color:#AAA;font-style:normal;font-size:18px}

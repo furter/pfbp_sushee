@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<imageTransformations>
+	<transformation name="thumbs" postfix="_thumbs">
+		<label>Thumbnails</label>
+		<label languageID="fre">Vignettes</label>
+		<label languageID="eng">Thumbnails</label>
+		<image finalName="thumb075.jpg">
+			<horizontal>
+				<resize height="75"/>
+			</horizontal>
+			<vertical>
+				<resize width="75"/>
+			</vertical>
+			<crop width="75" height="75" position="center"/>
+			<convert format="jpg"/>
+		</image>
+		<image finalName="thumb150.jpg">
+			<horizontal>
+				<resize height="150"/>
+			</horizontal>
+			<vertical>
+				<resize width="150"/>
+			</vertical>
+			<crop width="150" height="150" position="center"/>
+			<convert format="jpg"/>
+		</image>
+	</transformation>
+	<transformation name="news">
+		<label>Blogs</label>
+		<label languageID="fre">Visuels Blogs</label>
+		<label languageID="eng">Blogs visuals</label>
+		<image postfix="_blog">
+			<horizontal>
+				<resize height="96"/>
+			</horizontal>
+			<vertical>
+				<resize width="96"/>
+			</vertical>
+			<convert format="jpg"/>
+		</image>
+	</transformation>
+	<transformation name="faces">
+		<label>Faces</label>
+		<label languageID="fre">Portrait monochrome</label>
+		<label languageID="eng">Monochrome portrait</label>
+		<image postfix="_gray">
+			<grayscale/>
+			<convert format="jpg"/>
+		</image>
+	</transformation>
+	<transformation name="maxSize" deleteOriginal="true">
+		<label>Maximum size</label>
+		<image postfix="_max">
+			<choose>
+				<larger-than width="1600">
+					<resize width="1600"/>
+				</larger-than>
+				<larger-than height="1600">
+					<resize height="1600"/>
+				</larger-than>
+				<otherwise>
+					
+				</otherwise>
+			</choose>
+			<convert format="jpg" compression="86"/>
+		</image>
+	</transformation>
+	<!--transformation name="annotation">
+		<label>annotation</label>
+		<label languageID="fre">annotation</label>
+		<label languageID="eng">annotation</label>
+		<image postfix="_copyright">
+			<resize width="400"/>
+			<annotate font-size="18" font="Interstate Bold" text="http://www.nectil.com" color="white" position="center"/>
+			<convert format="jpg"/>
+		</image>
+	</transformation-->
+</imageTransformations>

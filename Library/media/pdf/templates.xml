@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DIR>
+<FILE>
+		<NAME languageID="fre">Page simple</NAME>
+		<NAME languageID="eng">Simple Page</NAME>
+		<INFO languageID="fre">par d√©faut</INFO>
+		<INFO languageID="eng">default</INFO>
+		<UNIQUENAME>defaultpage</UNIQUENAME>
+		<PATH>simple.xsl</PATH>
+		<PREVIEW/>
+		<MATCH/>
+		<CONFIG>
+			<WITH depth="recursive">
+				<INFO get="true"/>
+				<DEPENDENCIES get="true"/>
+				<DESCRIPTIONS get="true"/>
+				<COMMENTS get="false"/>
+				<FREELINKS get="false"/>
+			</WITH>
+		</CONFIG>
+		<UICONFIG/>
+		<QUERY/>
+	</FILE>
+</DIR>

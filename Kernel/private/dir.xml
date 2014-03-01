@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<DIR>
+	<FILE>
+		<NAME>Request</NAME>
+		<INFO languageID="fre">Le script qui traite les requêtes envoyées depuis le client flash nectil</INFO>
+		<INFO languageID="eng">The script that handles the requests from flash nectil client</INFO>
+		<PATH>request.php</PATH>
+		<UICONFIG/>
+		<QUERY/>
+	</FILE>
+</DIR>

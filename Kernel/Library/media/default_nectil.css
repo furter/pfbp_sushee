@@ -1,0 +1,82 @@
+body,h1,h2,h3,h4,h5,h6,ul,li,p,dl,dt,dd,img,select,label,img{padding:0;margin:0}
+
+body{font-size:11px;font-family:Verdana,sans-serif;background-color:#ededed;text-align:center;padding-bottom:10px}
+p{margin:0;padding:0;}
+h1{margin:0 0 10px;font-size:24px}
+h2{font-size:11px;margin:0 0 15px;}
+a{text-decoration:none;color:#000}
+img{margin:2px 0 15px 0}
+ul{list-style-type:none;margin:0 0 0 20px}
+li{margin:0 0 5px 0}
+dt{float:left;font-weight:bold;margin-right:5px;padding:10px 0}
+dd{float:left;margin:0 0 0 5px;text-align:right;padding:10px 0}
+dd a{color:#666}
+dd a.selected{font-weight:bold;color:#FF5D12}
+h2 a{height:14px;display:block;padding:1px 0 0 20px}
+h2 a.open{background:#FAFAFA url(../sushee/Library/media/images/open.gif) 0 0 no-repeat}
+h2 a.close{background:#FAFAFA url(../sushee/Library/media/images/closed.gif) 0 0 no-repeat}
+a img{border:0}
+h1 em{color:#AAA;font-style:normal;font-size:18px}
+
+#wrap{margin:0px auto;width:900px;text-align:left;position:relative}
+#logo_nectil{position:absolute;left:-100px;top:45px}
+html > body #logo_nectil{position:absolute;left:-100px;top:25px}
+#languages{margin:20px 15px 10px}
+#top_cell{background:transparent url(../sushee/Library/media/images/cell_top.gif) 0 0 no-repeat;height:14px;width:900px}
+#bottom_cell{background: transparent url(../sushee/Library/media/images/cell_bottom.gif) 0 0 no-repeat;height:14px;width:900px}
+#content{background: transparent url(../sushee/Library/media/images/cell_body.gif) 0 repeat-y; padding:0 15px 10px}
+#preview {width:485px;}
+#media_dependencies{clear:both;padding:0px 15px 0;margin:0 -15px;position:relative;}
+#nav_depth{color:#666;height:35px;display:block;padding:0 10px;margin:0 -14px 15px;border-top:1px solid #EEE;border-bottom:1px solid #EEE;background-color:#FAFAFA}
+#footer{margin:10px 0 0 0;text-align:center;position:relative}
+#w3c{position:absolute;right:10px;top:-3px}
+#w3c a{margin-left:5px}
+
+.media_section{margin:5px 0 20px;padding:0 10px 0 20px}
+.description_section{margin:5px 0 10px 3px;padding:0 10px;border:1px dashed #E0E0E0;overflow:hidden}
+.breaker{clear:both;height:1px;overflow:hidden}
+.align_right{float:right;width:370px;}
+.orange{color:#F60}
+.img strong{display:block;}
+.img img{height:100px;margin-top:10px}
+
+/****************/
+/* CONTENU BODY - HEADER - CONTENT */
+/****************/
+.media_section h1{margin:15px 0 0;padding:0;font-size:22px;color:#333}
+.media_section h2{margin:13px 0 0;padding:0;font-size:20px;color:#555}
+.media_section h3{margin:11px 0 0;padding:0;font-size:18px;color:#777}
+.media_section h4{margin:9px 0 0;padding:0;font-size:16px;color:#999}
+.media_section h5{margin:7px 0 0;padding:0;font-size:14px;color:#AAA}
+.media_section h6{margin:5px 0 0;padding:0;font-size:12px;color:#CCC}
+.media_section p{margin:10px 0;padding:0;font-size:12px;color:#000;line-height:18px}
+.media_section ul{margin:15px 0 15px 25px;padding:0;list-style-type:disc}
+.media_section li{margin:5px 0;padding:0}
+.media_section em{color:#FF5D12}
+.media_section strong{color:#FF5D12}
+
+.media_section .description_css a{font-size:12px;color:#FF5D12;height:15px;display:block;}
+.media_section .description_css{margin:0}
+.media_section .description_css a.open{background:transparent url(../sushee/Library/media/images/open_description.gif) 100%  3px no-repeat;}
+.media_section .description_css a.close{background:transparent url(../sushee/Library/media/images/close_description.gif) 100%  3px no-repeat;}
+.description_section{overflow:hidden}
+.description_section img{height:100px;}
+.img .description_section img{margin-bottom:10px}
+html > body .description_section img{height:auto;width:auto;max-width:405px;display:block;} /* fonctionne sauf safari -> deforme image et ie6 mini image*/ 
+
+/****************/
+/* DEPENDENCIES */
+/****************/
+.medias li{margin:0px 0;clear:both}
+.details{position:absolute;right:0;margin:0}
+.tree{position:relative;clear:both;width:100%}
+.tree h3{float:left;padding:0 0 5px 0;font-size:12px;font-weight:normal}
+.mediatype{float:left;width:120px}
+.creation_date{float:left;width:150px}
+.modification_date{float:left;width:150px}
+.modifier{float:left}
+.tree .dependency{clear:both;}
+.tree .dependency h4{margin-bottom:5px;font-size:12px;font-weight:normal}
+.tree .dependency h4 a{padding:0 0 0 20px;height:15px;display:block;}
+.tree .dependency h4 a.open{background:#FAFAFA url(../sushee/Library/media/images/arrow_open.gif) 0 0 no-repeat;}
+.tree .dependency h4 a.close{background:#F0F0F0 url(../sushee/Library/media/images/arrow_closed.gif) 0 0 no-repeat;}

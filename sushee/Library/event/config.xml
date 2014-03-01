@@ -1,0 +1,30 @@
+<config domain="DatesApp">
+	<confirm>
+		<!-- item 0 will always be used as submitted by collaborators value -->
+		<item value="0" color="" icon="bulle_pic">
+			<fre>Soumis</fre>
+			<eng>Submitted</eng>
+		</item>
+		<!-- item 1 will always be used as default value -->
+		<item value="1" color="" icon="favorites_pic">
+			<fre>Confirm&#233;</fre>
+			<eng>Confirmed</eng>
+		</item>
+		<item value="2" color="#999999" icon="questionmark_pic">
+			<fre>A confirmer</fre>
+			<eng>To be confirmed</eng>
+		</item>
+		<item value="3" color="#000000" icon="cancel_pic">
+			<fre>Annul&#233;</fre>
+			<eng>Canceled</eng>
+		</item>
+		<item value="4" color="#ff0000" icon="forward_pic">
+			<fre>Report&#233; (later date)</fre>
+			<eng>Deferred</eng>
+		</item>
+		<item value="5" color="#ff0000" icon="save_pic">
+			<fre>D&#233;plac&#233; (aujourd'hui)</fre>
+			<eng>Moved (today)</eng>
+		</item>
+	</confirm>
+</config>

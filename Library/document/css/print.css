@@ -1,0 +1,147 @@
+.bodytext{
+		embedFonts:true;
+		font-size:10; 
+		font-family:Body_font; 
+		color:#000000;
+		leading:0;
+		}
+.title{
+		embedFonts:true;
+		font-size:16; 
+		font-family:Titre_font;
+		font-weight:normal;
+		font-weight:bold
+		color:#000000;
+		leading:0;
+		}
+.subtitle{
+		embedFonts:true;
+		paragraph-style:true;
+		font-size:15;
+		font-family:Body_font;
+		font-weight:normal;
+		color:#330000;
+}
+.heading1{
+		embedFonts:true;
+		paragraph-style:true;
+		font-size:14;
+		font-family:Titre_font;
+		font-weight:bold;
+		color:#003300;
+}
+.heading2{
+		embedFonts:true;
+		paragraph-style:true;
+		font-size:13;
+		font-family:Body_font;
+		font-weight:bold;
+		color:#000033;
+}
+.quotation{
+		embedFonts:true;
+		font-size:11;
+		font-family:Body_font; 
+		font-style:italic;
+		font-weight:normal;
+		color:#444444;
+}
+.example {
+		embedFonts:true;
+		font-size:10;
+		font-family:Body_font; 
+		font-style:normal;
+		font-weight:normal;
+		color:#666666;
+		leading:0;
+}
+.list_item{
+		embedFonts:true;
+		list-style:disc;
+		font-size:11; 
+		font-family:Body_font;
+		color:#000000;
+		leading:0;
+}
+.pages{
+		embedFonts:true;
+		font-size:10;
+		font-family:Body_font;
+		font-style:normal;
+		font-weight:normal;
+		color:#000000;
+		textAlign:center;
+}
+.recipent{
+		embedFonts:true;
+		font-size:13;
+		font-family:Titre_font;
+		font-style:normal;
+		font-weight:normal;
+		color:#000000;
+		textAlign:right;
+}
+.address{
+		embedFonts:true;
+		font-size:11;
+		font-family:Body_font;
+		font-style:normal;
+		font-weight:normal;
+		color:#000000;
+		textAlign:right;
+}
+.labels{
+		embedFonts:true;
+		font-size:11;
+		font-family:Titre_font;
+		font-style:normal;
+		font-weight:normal;
+		color:#000000;
+		leading:4;
+}
+
+
+
+
+.emphasis{
+		embedFonts:true;
+		character-style:true;
+		font-size:11;
+		font-family:Body_font; 
+		font-style:normal;
+		font-weight:bold;
+		color:#330033;
+		leading:0;
+		}
+.comment{
+		embedFonts:true;
+		character-style:true;
+		font-size:11;
+		font-family:Body_font; 
+		font-style:italic;
+		font-weight:normal;
+		color:#330033;
+}
+.note{
+		embedFonts:true;
+		character-style:true;
+		font-size:10;
+		font-family:Body_font;
+		font-style:normal;
+		font-weight:normal;
+		color:#999999;
+}
+.infos{
+		embedFonts:true;
+		character-style:true;
+		font-size:11;
+		font-family:Body_font;
+		font-style:normal;
+		font-weight:normal;
+		color:#000000;
+}
+
+
+
+
+

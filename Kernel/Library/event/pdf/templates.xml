@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates>
+	<pdf>
+		<NAME>Week</NAME>
+		<UNIQUENAME>Week</UNIQUENAME>
+		<PATH>week.xsl</PATH>
+		<PREVIEW/>
+		<DEBUG>true</DEBUG>
+		<CONFIG>
+			<WITH>
+				<INFO get="true"/>
+				<DEPENDENCIES get="false"/>
+				<DESCRIPTIONS get="false"/>
+				<COMMENTS get="false"/>
+			</WITH>
+		</CONFIG>
+		<UICONFIG/>
+		<QUERY/>
+	</pdf>
+</templates>

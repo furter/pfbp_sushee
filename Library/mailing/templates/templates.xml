@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<DIR>
+	<FILE>
+		<NAME>News 2010</NAME>
+		<INFO languageID="fre">Template 2010</INFO>
+		<INFO languageID="eng">Template 2010</INFO>
+		<PATH>news2010.xsl</PATH>
+		<PREVIEW>previews/news.jpg</PREVIEW>
+		<CONFIG>
+		</CONFIG>
+		<UICONFIG/>
+		<QUERY/>
+	</FILE>
+	<FILE>
+		<NAME>News</NAME>
+		<INFO languageID="fre">Restez a jour!</INFO>
+		<INFO languageID="eng">Stay Updated!</INFO>
+		<PATH>news.xsl</PATH>
+		<PREVIEW>previews/news.jpg</PREVIEW>
+		<CONFIG>
+		</CONFIG>
+		<UICONFIG/>
+		<QUERY/>
+	</FILE>
+</DIR>

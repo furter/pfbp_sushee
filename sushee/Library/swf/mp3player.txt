@@ -1,0 +1,13 @@
+http://www.alsacreations.fr/dewplayer-en
+
+Mini 155x20
+Classic 200x20
+Multi 240x20
+
+mp3=test.mp3
+autostart=1
+autoreplay=1
+showtime=1
+randomplay=1
+nopointer=1
+volume=100

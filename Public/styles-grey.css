@@ -1,0 +1,362 @@
+/* rood rouge red #ed1f24 */
+div, h1,h2,h3,h4,h5,h6, p, ol, ul, li, input, button, * {margin:0; padding:0;font-family:Helvetica, Arial, Sans;}
+body{ text-align:left; font-family:Helvetica, Arial, Sans; font-size:11px; color:black; margin:20px;  background: #ccc;}
+h1{font-size:30px; color:#fff; line-height:20px;}
+h2{font-size:20px; margin-bottom:15px;}
+h3{font-size:15px;margin-bottom:10px;}
+h4{font-size:12px;margin-bottom:5px;}
+h5{font-size:11px;}
+h6{font-size:9px;}
+
+a{color:#ed1f24; text-decoration:none; cursor:pointer;}
+p, ul {line-height:1.5em; margin-bottom:5px;}
+ul {margin-left:20px;}
+dfn{color:#666; font-size:10px; font-style:normal;}
+em{color:#ed1f24; font-weight:bold; font-style: normal; text-transform:uppercase;}
+
+br.break, hr.clear{clear:both; height:0; border:none;}
+p.more {text-transform:uppercase; margin-top:4px;}
+p.comment{margin-left:10px; text-indent:-10px; margin-bottom:3px;}
+p.alert{margin-bottom:6px;}
+p.alert span {color:white; background:#ed1f24; font-weight:bold;}
+p .author, p .date{color:#ed1f24; margin-right:5px;}
+img{border:none;  border-width: 0px;}
+
+a.discreet{text-decoration:underline; color:white;}
+a.close {cursor: pointer; float:right; margin:0 5px;}
+a img {border:none; border-width: 0px;}
+
+p.quote{font-style:italic; margin-left:15px;color:#000;}
+cite {font-style:italic;}
+small {font-size:8px;}
+
+.gouttiere{margin-right:5px;}
+.gouttiere_hor{margin-bottom:5px;}
+.return {clear:left;}
+.hidden{display:none;}
+.display{display:block;}
+
+.preview.small{height:420px;}
+
+#container{text-align:left; /*margin:10px 20px; */ margin:0; width:90%; min-width:942px;}
+
+#top{height:60px; clear:both; margin-bottom:30px; position:fixed; top:30px; z-index:120px; width:640px;}
+#languages{position: fixed; top:5px; left:720px; z-index:100;}
+#languages ul li {display:inline; margin-left:5px;}
+#languages a {color:#666;}
+#languages a:hover, #languages a.active {border-top:5px solid #fff;}
+#languages a:hover{color:black;}
+
+#baseline{margin-top:5px;}
+#baseline p {font-size:20px; font-weight:bold;}
+
+#navigation {margin-right:30px; width:120px; position:fixed; top:125px; z-index:110; padding:5px;/* background:#ccc; */}
+#navigation ul {list-style: none; text-align:center; margin-left:-30px;}
+#navigation ul li {list-style: none; margin-bottom:5px; margin-left:15px;}
+#navigation ul li.active {}
+#navigation a {color:black;}
+#navigation a:hover{color:#fff;}
+#navigation a.active{color:#fff; font-weight:bold; font-size:15px;}
+#navigation ul ul {list-style: none; margin-bottom:10px; margin-left:7px;}
+#navigation ul ul li {list-style: none; text-align:center; margin-left:0; margin-bottom:0;}
+#navigation ul ul li.active {}
+#navigation ul ul li a.active{color:black; font-weight:bold; font-size:11px;}
+
+#navigation ul.normal li {font-size:12px; margin-bottom:4px; text-transform:uppercase; letter-spacing:0.15em;}
+
+#content{float:left; position:relative; /*top:85px;*/ top:102px; left:135px; padding:5px; /* background: #ccc url(images/bg-red-diagonal.png) no-repeat;*/}
+#content h1, #content h2, #content h3, #content h4, #content h5, #content h6{text-align:left;}
+#content h1{margin-bottom:30px;}
+#content h2{margin-top:20px; margin-bottom:5px;}
+#content h3{margin-top:15px; margin-bottom:3px;}
+#content h4{margin-top:10px; margin-bottom:3px;}
+#main_content {float:left;}
+#side_content {float:left;}
+
+#tools {}
+#tools li.tool_nav{float:left; margin-right:20px; list-style:none;}
+#tools .tool{position:absolute; width:300px; background:white; border:1px solid #ed1f24; padding:5px; margin:0;}
+
+#search_details a{color:white; background:#ed1f24; padding:1px 3px;}
+#search_details a:hover{text-decoration:underline;}
+
+input.button, a.button{background:#ed1f24; color:white; font-weight:bold; text-transform:uppercase; border:none; font-size:12px; padding:1.5px 15px; letter-spacing:0.1em;}
+input.discreet_button, a.discreet_button{background:black; color:#ed1f24; font-weight:normal; text-transform:uppercase; border:#ed1f24 1px solid; font-size:12px; padding:0px 8px; letter-spacing:0.1em;}
+input.texte.no_value{color:#666;}
+
+#browse{margin-top:20px;}
+
+#tools select{width:100%; clear:both;}
+#tools .select_container {margin-bottom:6px;}
+#tools .input_button_container{margin-top:9px;}
+#tools .button {font-size:12px; padding:5px 10px 2px 10px; }
+
+#display ul{list-style:none;}
+#display ul li{margin:5px 0;}
+#display ul ul{margin:5px 0 5px 20px;}
+#display ul ul li {margin:3px 0;}
+#display label{float:none; clear:none;}
+#display input{float:left;}
+
+table#listing{border-collapse:collapse; border:1px solid black;width:90%;}
+#listing th{border-bottom:1px solid black; border-top:1px solid black; padding:2px; border-left:1px solid #bbb; border-right:1px solid #bbb;  vertical-align:top;}
+#listing td{border-bottom:1px solid black; border-left:1px solid #bbb; border-right:1px solid #bbb; padding:2px; vertical-align:top;}
+
+#specific{clear:both; margin-top:40px;}
+#specific .Gallery {clear:both;}
+#specific .img_container {margin:5px; float:left;}
+#specific .file_tools {margin-top:5px;}
+
+#specific.Galleries .Book {clear:both;}
+
+#bottom{width:420px; padding:15px 0 0; margin-top:200px; background:transparent url(images/bottom.png) no-repeat;}
+#bottom ul.Tools{list-style:none; display:inline; margin-right:5px;}
+#bottom a, #bottom p {color:#999;}
+#bottom a:hover {color:#000;}
+
+.browser_tools{margin:20px 0; clear:both;}
+.browser_tools ul{margin-bottom:5px;}
+.browser_tools li {display:inline; margin-left:10px;}
+.browser_tools li.title{margin-left:0; color:#ed1f24; text-transform:#ed1f24; letter-spacing:0.15em; text-transform:uppercase;}
+.browser_tools a{color:white;}
+.browser_tools a:hover;{color:#ed1f24;}
+.browser_tools a.active{color:#ed1f24; text-decoration:underline;}
+
+
+#content .styled_text a {color:#000; text-decoration:underline;}
+#content .styled_text a:hover {color:#ed1f24; text-decoration:underline;}
+
+form .checkboxes_container, form .checkbox_container, form .input_text_container, form .captcha_container, form .select_container form .list_container{width:100%; margin-top:8px;}
+form .input_button_container, {margin-left:80px; margin-top:10px;}
+form .checkboxes_container .checkbox_container{}
+form textarea {width:100%; height:60px; font-size:11px;}
+form .checkboxes_container label{clear:both; float:none; display:inline;}
+form label {float:left; display:block; clear:both;}
+form .checkbox_container input{ float:left; margin-right:5px;}
+form .checkbox_container label{ clear:none;}
+form .list_container label{clear:none; float:none;}
+form .list_container ul {margin-left:15px;}
+form dfn {margin-left:5px;}
+form input.texte{width:90%; height:12px; font-size:11px; }
+form input.texte, form select {clear:both; float:left;}
+form .captcha_container label{clear:both; float:none; width:100%;}
+form .captcha_container input.texte{margin-top:4px;}
+form .captcha_container .img_captcha{width:80px; float:left;}
+form select{width:92%;}
+
+ul.subnavigation{margin-top:0px; margin-bottom:20px; list-style:none; width:180px; margin-left:0;}
+ol.subnavigation{margin-top:0px; margin-bottom:20px; list-style:none; width:180px; margin-left:15px;list-style-type: decimal;}
+ul.subnavigation li, ol.subnavigation li{margin-bottom:5px;}
+ul.subnavigation li{background:transparent url(images/petit_losange.png) no-repeat 3px 2px; padding-left:15px;}
+ul.subnavigation a, ol.subnavigation a {color:black; padding-bottom:5px; display:block; }
+ul.subnavigation a:hover, ol.subnavigation a:hover {border-bottom:5px solid #fff; padding-bottom:0px;}
+
+ul.preview_navigation{float:right; list-style:none; }
+body.Book ul.preview_navigation{float:none; clear:both; width:100%; height:15px;}
+ul.preview_navigation li {display:inline;}
+ul.preview_navigation li a{}
+ul.preview_navigation li a:hover{}
+
+ul.body_preview{list-style:none; margin-top:5px; margin-bottom:30px;}
+ul.body_preview li{margin-left:15px; color:#999;}
+ul.body_preview li a{color:#999;}
+ul.body_preview li a:hover{color:#ed1f24;}
+ul.body_preview li.link {margin-left:0; margin-bottom:8px; padding-bottom:-4px;}
+ul.body_preview li.link a{color:black; font-weight:bold; border-bottom:5px solid #fff;}
+ul.body_preview li.link a:hover{background:#fff;}
+
+.Website #content {top:0;}
+.Website #content h1 {text-align:center;}
+.Website #content .preview {height:540px; position:relative; width:720px; float:left;}
+.Website #content .image {position:absolute; top:0; left:0; width:50%; overflow:hidden; text-align:center;}
+.Website #content .image img {margin:0 auto;}
+.Website #content .title {position:absolute; top:5%; left:0; width:100%; height:75%; text-align:center; display: table-row;}
+.Website #content .title h1{display: table-cell; vertical-align: middle; text-align:center; height:400px; width:720px; }
+.Website #content .title h1 img {margin:0 auto;}
+.Website #content .info {position:absolute; bottom:0; left:50%; width:240px; margin-left:5px;}
+
+.Website #content .Book.preview .title {position:relative; top:5%; left:50%; width:45%; height:auto; text-align:left; display: block; margin-left:2%;}
+.Website #content .Book.preview .title h1{display: block; vertical-align: top; text-align:left; height:auto; width:auto; }
+
+
+.preview .info ul, .Book .info ul {list-style:none;}
+.preview .info li, .Book .info li { margin-bottom:3px; clear:both;}
+.preview .info li.TITLE, .Book .info li.TITLE {text-transform:uppercase; font-weight:bold; float:left; clear:none; width:75%;}
+.preview .info li.laureat, .Book .info li.laureat{background:transparent url(images/losange_laureat.png) no-repeat 0px 1px; padding:0px 0 0 14px;}
+.preview .info li.last, .Book .info li.last{margin-bottom: 0;}
+.preview .info li.PFBproperties {float:right;clear:none;}
+.preview .info ul.PFBproperties li {display:inline; margin-right:5px;}
+.preview .info li.PFBproperties ul.PFBproperties li{float:none;clear:none;}
+.preview .info ul label, .Book .info ul label  {font-size:8px; text-transform:uppercase; font-weight:bold; letter-spacing:0.05em; margin-right:3px;list-style:none;}
+
+body.Book #content h1 {margin-bottom:20px; line-height:27px;}
+body.Book .info {border-top:5px solid #fff;border-bottom:5px solid #fff; padding:5px 0;}
+body.Book .info li.concours {}
+body.Book .info ul.PFBproperties li{font-style:normal; display:inline; margin-right:5px;}
+body.Book .inside_navigation{margin:10px 0;}
+body.Book .inside_navigation a {color:#999;}
+body.Book .inside_navigation a:hover, .Book .inside_navigation a.active {color:#ed1f24;}
+body.Book .inside_navigation li {list-style:none; margin-bottom:5px;}
+body.Book .inside_navigation li.link{font-weight:bold;/* border-bottom:5px solid #fff; */color:black;}
+body.Book .inside_navigation li.download{margin-top:20px;}
+body.Book #content_details {position:fixed; top:125px; left:435px; background:transparent url(images/white-90.png); width:360px; z-index:1000; max-height:541px;}
+body.Book #content_details.small{max-height:420px;}
+body.Book #content_details .detail{margin:5px; max-height:531px; overflow:auto;}
+body.Book #content_details .detail.small{max-height:410px;}
+body.Book #content_details #technique li{margin-bottom:5px;}
+body.Book #content_details #technique h4{margin-top:10px; border-top:1px solid #999; padding-top:5px;}
+
+.Page #content{width:420px;}
+.Rules #content{width:420px; float:none;}
+.Rules #specific ol.subnavigation{margin-bottom:30px; margin-left:30px;}
+
+.fix #navigation{/*background:#ccc;*/}
+.fix #content{position:fixed; /*top:105px;*/ top:125px; left:155px; z-index:100; }
+.fix #specific{position:relative; top:70px; z-index:10; margin-left:15px;}
+
+.Worksite #content #displayed_content {border-bottom:#fff 5px solid; padding-bottom:10px; margin-right:5px; margin-bottom:15px;}
+.Worksite #content #displayed_content h1{margin-bottom:15px;}
+.Worksite #content .inside_navigation .col{width:130px; float:left;}
+.Worksite #content .inside_navigation .small_preview {clear:both; border-bottom:1px solid #fff; padding-bottom:3px; margin-bottom:3px;}
+.Worksite #content .inside_navigation .small_preview * {text-align:center;}
+.Worksite #content .inside_navigation .small_preview h4{margin-top:3px;}
+.Worksite #content .inside_navigation .small_preview a{color:black;}
+.Worksite #content .inside_navigation .small_preview a:hover{color:#ed1f24;}
+.Worksite #content .inside_navigation .Paragraph, .Worksite #content .inside_navigation .Paragraph * {text-align:center;}
+
+
+.Selection.fix #content, .Book.fix #content, .Worksite.fix #content{width:270px;}
+.BookSubmission #specific, .Selection.fix #specific, .Book.fix #specific, .Worksite.fix #specific{left:400px; margin-top:40px;}
+.BookSubmission #specific .preview, .Selection.fix #specific .preview, .Book.fix #specific .preview, .Worksite.fix #specific .preview{float:left;}
+.BookSubmission #specific .info, .Selection.fix #specific .info, .Book.fix #specific .info, .Worksite.fix #specific .info{border-top:3px solid #fff; padding-top:5px;}
+
+.Selection #content, .Book #content{width:450px;}
+.Selection #content h5 {margin-bottom:10px;}
+
+.Selection #specific.fix {left:720px; top:125px; position:fixed; width:240px; margin:0; }
+.Selection #specific.fix .small_preview {float:left; height:90px; position:relative;}
+.Selection #specific.fix .small_preview h6 {position:absolute; bottom:0; left:0; font-weight:normal; padding:2px; display:none;}
+.Selection #specific.fix .small_preview h6 span {background:transparent url(images/white-80.png); padding:2px 2px 0;}
+.Selection #specific.fix .small_preview a h6{color:black;}
+.Selection #specific.fix .small_preview a:hover h6, .Books #specific .small_preview a:hover h6, .Books #specific .small_preview a:hover h6{}
+
+.Books #specific {width:600px;}
+.Books #specific table{border-collapse:collapse; width:690px;}
+.Books #specific tr.laureat{cursor:pointer;}
+.Books #specific td{border-collapse:collapse; border-bottom:1px solid #fff; vertical-align:top; padding:4px 2px;}
+.Books #specific td.concours img{margin-top:2px;}
+.Books #specific td.year{text-align:right;}
+.Books #specific th{border-collapse:collapse; border-bottom:3px solid #fff; vertical-align:bottom; padding:4px 2px;}
+.Books #specific .small_preview {}
+	
+.Books #content{width:270px; /*top:105px;*/ top:125px; position:fixed;}
+.Books #specific{left:390px; position:relative; top:110px; width:690px; margin:0;}
+.Books #specific .small_preview{float:left; height:120px; position:relative;}
+
+.Links {margin-bottom:10px;}
+.Links a {color:black;}
+.Links a:hover {color:black; border-bottom:5px solid #fff;  padding-bottom:0px;}
+
+.NewsList #specific .News, .News #specific .News{margin-bottom:20px; padding-bottom:20px; border-bottom:3px #fff solid;}
+.NewsList #specific .News h2, .News #specific .News h2 {margin-bottom:15px; margin-top:0;}
+.NewsList #specific .News h6, .News #specific .News h6 {margin-bottom:5px; font-weight:normal; font-size:10px;}
+.NewsList #specific .News .body_container, .News #specific .News .body_container {width:270px;float:left; margin-right:30px;}
+.NewsList #specific .News .body_container h2, .News #specific .News .body_container h2 {margin-bottom:10px;}
+.NewsList #specific .News .visualNews, .News #specific .News .visualNews{float:left; margin-right:5px;}
+/*
+.NewsList #specific .News .HEADER {text-align:center; text-transform:uppercase; margin-bottom:15px; border-bottom:5px solid #fff; padding-bottom:10px;}
+.NewsList #specific .News .HEADER *, .Website #content .News .HEADER * {text-align:center; text-transform:uppercase;}
+.NewsList #specific .News .HEADER h4, .Website #content .News .HEADER h4{text-transform: uppercase; font-weight:normal; font-weight:normal; margin-bottom:3px;}
+.NewsList #specific .News .HEADER h2, .Website #content .News .HEADER h2{margin-top:10px; font-weight:normal;}
+.NewsList #specific .News .HEADER h3, .Website #content .News .HEADER h3{margin-bottom:5px;}
+.NewsList #specific .News .HEADER p, .Website #content .News .HEADER p{text-transform:none; margin-bottom:3px;}
+.NewsList #specific .News .HEADER, .Website #content .News .HEADER {text-align:center; text-transform:uppercase; }
+*/
+
+#lightbox{text-align:center; position:fixed; top:0; left:0; width:100%; height:100%; overflow:hidden; background:url(images/bg_lightbox.png);}
+#lightbox_container{text-align:center; margin:3% auto; width:400px; background: url(images/loader.gif) center center no-repeat;}
+#lightbox_content{background:white; text-align:left; padding:20px; height:90%; overflow:auto;}
+
+form>div{margin-bottom:5px;}
+.Books form{width:180px;}
+.Books form select{width:100%;}
+.Books #SearchBooks{margin-bottom:20px; padding-bottom:20px; border-bottom:5px solid #fff;}
+.Books #SearchBooks .button_container{float:right; margin-top:20px;}
+.Books #SearchBooks .input_text_container{float:left; width:60%;}
+.Books #SearchBooks .button_container a, .BookSubmission .button_container a {border-bottom:5px solid #fff; background:transparent; color:black;}
+.Books #SearchBooks .button_container a:hover, .BookSubmission .button_container a:hover {border-bottom:5px solid #ed1f24;}
+
+.Press #specific .Gallery, .Press #specific .Book, .Press #specific .downloads{clear:both; margin:20px 0;}
+.Press #specific .downloads ul {margin-left:20px;}
+/*.Press #specific .downloads ul li{margin-left:20px;}*/
+.loading {width:100%; background:transparent url(images/ajax-loader.gif) no-repeat; height:16px;}
+
+.BookSubmission #content{width:270px; position:absolute;}
+/*.BookSubmission #content .text{height:400px; overflow:auto;}*/
+.BookSubmission .button_container {margin-top:10px; width:50%;}
+.BookSubmission .button_container a{display:block; font-weight:bold;}
+.BookSubmission form .alert {background:#fff;}
+.BookSubmission ol.subnavigation li {margin-bottom:0;}
+.BookSubmission ol.subnavigation li a.active {font-weight:bold;}
+.BookSubmission ol.subnavigation li a.inactive {color:#999;}
+.BookSubmission #specific{left:400px; margin-top:40px; width:610px; overflow:hidden; margin-bottom:40px;}
+.BookSubmission #specific .preview{width:300px;}
+.BookSubmission #specific .mask{background:transparent url(images/white-80.png) repeat; height:100%;}
+.BookSubmission #specific .right{position:absolute; top:0; right:0; width:305px;}
+.BookSubmission #specific_mask{position:relative; left:0px;}
+.BookSubmission #specific .book_author {clear:both;}
+.BookSubmission #specific .book_author input{width:45%; margin-right:2%; float:left; clear:none;}
+.BookSubmission #specific #addBookAuthor input {margin-bottom:2px;}
+.BookSubmission #specific .sub_navigation .button_container.prev{float:left;}
+.BookSubmission #specific .sub_navigation .button_container.next{float:right; text-align:right;}
+.BookSubmission #specific .sub_navigation .button_container a{border-color:white;}
+.BookSubmission #specific .sub_navigation .button_container a:hover{border-color:#fff;}
+.BookSubmission #specific .search_container{border-top:1px solid #999; padding:5px 0; border-bottom:1px solid #999; margin:20px 0; width:90%;}
+.BookSubmission #specific .search_container label{clear:both; float:none;}
+.BookSubmission #specific .search_container input{float:left;}
+.BookSubmission #specific .search_container .message{clear:both; margin-top:5px;}
+.BookSubmission #specific .search_container .button_container{float:right; margin-top:0;}
+.BookSubmission #specific .other_contributor {margin-bottom:20px;}
+.BookSubmission textarea#BIBLIO {height:270px;}
+.BookSubmission textarea.c_remark{width:91%; font-size:11px; min-height:60px; display:block; clear:both;}
+
+#content .w2010 {position:relative; margin-top:100px; width:900px; height:490px; text-align:center; min-height:150px;}
+#content .w2010	.anim{width:470px; height:100%; margin:0 auto; position:relative; top:5px;}
+#content .w2010	.bg{position:absolute; top:0; left:0; width:100%; height:100%;}
+#content .w2010 .bg img{width:100%; height:100%; position:absolute; top:0; left:0;}
+#content .w2010 .year, #content .w2010 .imgtitle{position:absolute};
+#content .w2010 .top {top:0;}
+#content .w2010 .left{left:0;}
+#content .w2010 .right{right:0;}
+#content .w2010 .bottom{bottom:0;}
+#content .w2010 .center{width:100%; text-align:center;}
+#content .w2010 .middle{height:100%; line-height:100%;}
+#content .w2010 .middle img{position:absolute;top:0;bottom:0;margin:auto;}
+#content .w2010 .top.imgtitle{top:-60px;}
+#content .w2010 .bottom.imgtitle{bottom:-55px;}
+#content .w2010 .right.imgtitle{right:46px;}
+#content .w2010 .top.year{top:-45px;}
+#content .w2010 .bottom.year{bottom:-45px;}
+#content .w2010 .left.year{left:10px;}
+#content .w2010 .right.year{right:10px;}
+
+#content .w2010 ul.subtitle{margin:11px auto 0; padding:0; text-align:center; max-width:435px; width:90%;}
+#content .w2010 ul.subtitle li{font-size:10px; line-height:11px; font-weight:bold; color:white; list-style:none; display:block; margin:0 10px; text-align:left; float:left;}
+/*	
+	.year.top, .title.top{top:-80px;}
+	.year.bottom, .title.bottom{bottom:-80px;}
+*/
+#content .w2010 .books{position:absolute; width:100%;}
+#content .w2010 .books.top{top:-94px;}
+#content .w2010 .books.bottom{bottom:-105px;}
+#content .w2010 .books ul{width:100%;margin:0; padding:0;}
+#content .w2010 .books ul li{position:relative; list-style:none; display:block; text-align:left; float:left; line-height:1em;}
+#content .w2010 .books ul li.active{text-decoration:underline;}
+#content .w2010 .books.bottom ul li{width:20%;}
+#content .w2010 .books.top ul li{width:16.5%;}
+#li3808{left:-50px;}
+
+#content .w2010 .img_books{height:100%; width:100%; text-align:center; position:absolute; top:-20%;}
+#content .w2010 .img_books img{height:140%; position:relative; left:;}
+
+.Website #content{height:100%; width:100%;}

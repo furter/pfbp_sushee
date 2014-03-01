@@ -1,0 +1,167 @@
+p{
+	paragraph-style:true;
+	fre:Corps%20de%20texte;
+	eng:Bodytext;
+	dut:Bodytext;
+	font-size:11; 
+	font-family:Helvetica,Arial,sans-serif;
+	font-weight:normal;
+	font-style:normal;
+	color:#000000;
+}
+h1{
+	paragraph-style:true;
+	fre:En%2Dt%C3%AAte%201;
+	eng:Header%201;
+	dut:Header%201;
+	font-size:30;
+	color:#ed1f24; 
+	line-height:20;
+	font-family:Helvetica,Arial,sans-serif;
+	font-weight:normal;
+}
+h2{
+	paragraph-style:true;
+	fre:En%2Dt%C3%AAte%202;
+	eng:Header%202;
+	dut:Header%202;
+	font-size:20; 
+	font-family:Helvetica,Arial,sans-serif;
+	font-weight:bold;
+	color:#000000;
+}
+h3{
+	paragraph-style:true;
+	fre:En%2Dt%C3%AAte%203;
+	eng:Header%203;
+	dut:Header%203;
+	font-size:15; 
+	font-family:Helvetica,Arial,sans-serif;
+	font-style:normal;
+	font-weight:bold;
+	color:#000000;
+}
+h4{
+	paragraph-style:true;
+	fre:En%2Dt%C3%AAte%204;
+	eng:Header%204;
+	dut:Header%204;
+	font-size:12; 
+	font-family:Helvetica,Arial,sans-serif;
+	font-style:normal;
+	font-weight:bold;
+	color:#000000;
+}
+.bullets{
+	fre:Liste%20%C3%A0%20puce;
+	eng:Bullets%20list;
+	dut:Bullets%20list;
+	list-style:disc;
+	font-size:11; 
+	font-family:Helvetica,Arial,sans;
+	color:#000000;
+}
+.quote{
+	fre:Citation;
+	eng:Quote;
+	dut:Aantekening;
+	paragraph-style:true;
+	font-size:11;
+	font-family:Helvetica,Arial,sans;
+	font-weight:normal;
+	font-style:italic;
+	margin-left:25;
+	color:#000;
+}
+
+strong{
+	fre:Gras;
+	eng:Strong;
+	dut:Strong;
+	character-style:true;
+	font-size:11;
+	font-family:Helvetica,Arial,sans;
+	font-style:normal;
+	font-weight:bold;
+	color:#000000;
+}
+em{
+	fre:Emphas%C3%A9 - gras rouge;
+	eng:Emphasized;
+	dut:Emphasized;
+	character-style:true;
+	font-size:12;
+	font-family:Helvetica,Arial,sans;
+	font-style:normal;
+	font-weight:bold;
+	color:#ed1f24;
+}
+cite{
+	fre:R%C3%A9f%C3%A9rence;
+	eng:Reference;
+	dut:Reference;
+	character-style:true;
+	font-size:10;
+	font-family:Helvetica,Arial,sans;
+	font-style:italic;
+	font-weight:normal;
+	color:#000000;
+}
+small{
+	fre:Petit;
+	eng:Small;
+	dut:Klein;
+	character-style:true;
+	font-size:8;
+	font-family:Helvetica,Arial,sans;
+	font-style:normal;
+	font-weight:normal;
+	color:#000000;
+}
+a{
+	fre:Lien%20%28Website%29;
+	eng:Link%20%28Website%29;
+	dut:Link%20%28Website%29;
+	url-style:true;
+	font-size:11;
+	font-family:Helvetica,Arial,sans;
+	font-style:normal;
+	font-weight:normal;
+	color:#ed1f24;
+	text-decoration:underline;
+}
+.nectil_link{
+	fre:Lien%20%28M%C3%A9dia%20Nectil%29;
+	eng:Link%20%28Nectil%20Media%29;
+	dut:Link%20%28Nectil%20Media%29;
+	nectil-style:true;
+	font-size:11;
+	font-family:Lucida Grande,Helvetica,Arial,sans;
+	font-style:normal;
+	font-weight:normal;
+	color:#ff6600;
+	text-decoration:underline;
+}
+.image{
+	fre:Image;
+	eng:Picture;
+	dut:Picture;
+	image-style:true;
+	font-size:11;
+	font-family:Monaco,Courier New,Courier,monospace;
+	font-style:normal;
+	font-weight:bold;
+	color:#990099;
+}
+.filestyle{
+	fre:Fichier;
+	eng:File;
+	dut:File;
+	file-style:true;
+	font-size:11;
+	font-family:Lucida Grande,Helvetica,Arial,sans;
+	font-style:normal;
+	font-weight:normal;
+	color:#009900;
+	text-decoration:underline;
+}

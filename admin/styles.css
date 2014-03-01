@@ -1,0 +1,151 @@
+div, h1,h2,h3,h4,h5,h6, p, ol, ul, li, input, button, * {margin:0; padding:0;font-family:Helvetica, Arial, Sans;}
+body{background:white; text-align:left; font-family:Helvetica, Arial, Sans; font-size:11px; color:black;}
+h1,h2,h3,h4,h5,h6{text-transform:uppercase; letter-spacing:0.15em;}
+h1{font-size:30px; color:red;}
+h2{font-size:24px; margin-bottom:16px; text-align:center;}
+h3{font-size:18px;margin-bottom:12px;}
+h4{font-size:14px;margin-bottom:5px;}
+h5{font-size:12px;}
+h6{font-size:10px;}
+a{color:red; text-decoration:none;}
+p {line-height:1.5em;}
+dfn{color:#666; font-size:10px; font-style:normal;}
+
+br.break{clear:both; height:0;}
+p.more {text-transform:uppercase; margin-top:4px;}
+p.comment{margin-left:10px; text-indent:-10px; margin-bottom:3px;}
+p.alert{margin-bottom:6px;}
+p.alert span {color:white; background:red; font-weight:bold;}
+p .author, p .date{color:red; margin-right:5px;}
+img{border:none;}
+
+a.discreet{text-decoration:underline; color:white;}
+
+.gouttiere{margin-right:20px;}
+.return {clear:left;}
+.hidden{display:none;}
+.display{display:block;}
+
+.col_1{width:54px;}
+.col_2{width:128px;}
+.col_3{width:202px;}
+.col_4{width:276px;}
+.col_5{width:350px;}
+.col_6{width:424px;}
+.col_7{width:498px;}
+.col_8{width:572px;}
+.col_9{width:646px;}
+.col_10{width:720px;}
+.col_11{width:794px;}
+.col_12{width:868px;}
+.col_13{width:942px;}
+
+#container{text-align:left; margin:10px 20px; width:90%; min-width:942px;}
+
+#header{clear:both; margin-bottom:20px; padding-bottom:10px; border-bottom:1px solid red; min-height:70px;}
+#site_functionnalities{float:right; margin-top:10px; }
+#site_functionnalities div {float:left;text-align:left; }
+#site_functionnalities a{font-size:9px; color:red; border:1px solid red; padding:0px 3px; text-transform:uppercase;}
+#site_functionnalities a:hover{color:red;}
+#site_functionnalities a.active {background:red; color:black; padding:0px 3px;}
+#site_functionnalities a.active:hover{color:black;}
+
+#baseline{margin-top:5px;}
+#baseline p {font-size:20px; font-weight:bold;}
+
+#navigation {clear:both;  margin-bottom:20px; padding-bottom:10px;}
+#navigation ul {list-style: none;}
+#navigation ul li {list-style: none; display:inline; margin-right:20px;}
+
+#navigation ul.normal li {font-size:12px; margin-bottom:4px; text-transform:uppercase; letter-spacing:0.15em;}
+
+#content {clear:both;}
+#main_content {float:left;}
+#side_content {float:left;}
+
+#tools {}
+#tools li.tool_nav{float:left; margin-right:20px; list-style:none;}
+#tools .tool{position:absolute; width:300px; background:white; border:1px solid red; padding:5px; margin:0;}
+
+#search_details a{color:white; background:red; padding:1px 3px;}
+#search_details a:hover{text-decoration:underline;}
+
+input.button, a.button{background:red; color:white; font-weight:bold; text-transform:uppercase; border:none; font-size:12px; padding:1.5px 15px; letter-spacing:0.1em;}
+input.discreet_button, a.discreet_button{background:black; color:red; font-weight:normal; text-transform:uppercase; border:red 1px solid; font-size:12px; padding:0px 8px; letter-spacing:0.1em;}
+input.texte.no_value{color:#666;}
+
+#browse{margin-top:20px;}
+
+#tools select{width:100%; clear:both;}
+#tools .select_container {margin-bottom:6px;}
+#tools .input_button_container{margin-top:9px;}
+#tools .button {font-size:12px; padding:5px 10px 2px 10px; }
+
+#display ul{list-style:none;}
+#display ul li{margin:5px 0;}
+#display ul ul{margin:5px 0 5px 20px;}
+#display ul ul li {margin:3px 0;}
+#display label{float:none; clear:none;}
+#display input{float:left;}
+
+table#listing{border-collapse:collapse; border:1px solid black;width:90%;}
+#listing th{border-bottom:1px solid black; border-top:1px solid black; padding:2px; border-left:1px solid #bbb; border-right:1px solid #bbb;  vertical-align:top;}
+#listing td{border-bottom:1px solid black; border-left:1px solid #bbb; border-right:1px solid #bbb; padding:2px; vertical-align:top;}
+
+#specific{clear:both; margin-top:40px;}
+#specific .Gallery {clear:both;}
+#specific .img_container {margin:5px; float:left;}
+#specific .file_tools {margin-top:5px;}
+
+#specific.Galleries .Book {clear:both;}
+
+#bottom{clear:both; margin:20px 0; padding-top:10px; border-top:1px solid #666;}
+
+#bottom_navigation {float:left;}
+#bottom_navigation ul {list-style:none;}
+#bottom_navigation li {float:left; width:100px; margin-right:6px; margin-bottom:6px;}
+#bottom_navigation a {color:white;}
+#bottom_navigation a:hover {color:red;}
+#bottom_navigation a.active {color:red;}
+
+.browser_tools{margin:20px 0; clear:both;}
+.browser_tools ul{margin-bottom:5px;}
+.browser_tools li {display:inline; margin-left:10px;}
+.browser_tools li.title{margin-left:0; color:red; text-transform:red; letter-spacing:0.15em; text-transform:uppercase;}
+.browser_tools a{color:white;}
+.browser_tools a:hover;{color:red;}
+.browser_tools a.active{color:red; text-decoration:underline;}
+
+
+#main_content .styled_text p {font-size:12px; margin-bottom:12px; line-height:18px;}
+
+
+form .input_text_container, form .captcha_container, form .select_container form .list_container{width:100%; margin-top:8px;}
+form .input_button_container, {margin-left:80px; margin-top:10px;}
+form textarea {width:100%; height:60px; font-size:11px;}
+form label {float:left; display:block; clear:both;}
+form .list_container label{clear:none; float:none;}
+form .list_container ul {margin-left:15px;}
+form dfn {margin-left:5px;}
+form input.texte{width:90%; height:12px; font-size:11px; }
+form input.texte, form select {clear:both; float:left;}
+form .captcha_container label{clear:both; float:none; width:100%;}
+form .captcha_container input.texte{margin-top:4px;}
+form .captcha_container .img_captcha{width:80px; float:left;}
+
+.Page #navigation{float:left;}
+.Page #navigation li {float:none; margin-bottom:5px; padding-bottom:5px; list-style:none; border-bottom:1px dotted #666;}
+.Page #content{float:left;clear:none; margin-bottom:15px;}
+.Page #content h1{margin-bottom:15px;}
+.Page #navigation a:hover {text-decoration:underline;}
+
+.BooksExport .Book{margin-bottom:40px;}
+.BooksExport h2{text-align:left; margin-top:40px;}
+.BooksExport h6{color:#999;}
+.BooksExport table{border:1px solid black; border-collapse:collapse;}
+.BooksExport td, .BooksExport th{border:1px solid black; border-collapse:collapse; padding:5px; vertical-align: top; width:33%;}
+.BooksExport td .field{padding:5px 0; margin:10px 0; border-bottom:1px solid #ccc;}
+
+#lightbox{text-align:center; position:fixed; top:0; left:0; width:100%; height:100%; overflow:hidden; background:url(images/bg_lightbox.png);}
+#lightbox_container{text-align:center; margin:3% auto; width:400px; background: url(images/loader.gif) center center no-repeat;}
+#lightbox_content{background:white; text-align:left; padding:20px; height:90%; overflow:auto;}

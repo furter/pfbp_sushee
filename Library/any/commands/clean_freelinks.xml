@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<FILE>
+	<NAME>CleanFreelinks</NAME>
+	<INFO languageID="fre">Nettoie les liens libres pour tous les modules</INFO>
+	<INFO languageID="eng">Clean freelinks for all the modules</INFO>
+	<ICON>clear.png</ICON>
+	<PATH>clean_freelinks.php</PATH>
+	<UICONFIG/>
+    <QUERY/>
+</FILE>
