@@ -3,10 +3,13 @@
     padding: 0;
 }
 
-a, a:visited, a:hover, a:active, a:link {
+a, a:visited, a:active, a:link {
     color: black; 
     text-decoration: none;
     border-bottom: 1px solid red;
+}
+a:hover {
+    border-bottom: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -45,14 +48,10 @@ sub {
 }
 
 .pageblanchetitre {
-//    font-family: sans-serif;
     color: red;
     margin-bottom: 2px;
-//    font-size: 11px;
     text-transform: uppercase;
     letter-spacing: 1px;
-//    font-weight: bold;
-//    text-align: center;
 }
 
 
@@ -65,15 +64,14 @@ sub {
 
 .pageblanchelogo {
     position: relative; 
-    width:150px; 
+    width: 600px; 
     left: 50%; 
-    margin:10px 20px 50px -85px;
+    margin: 70px 20px 100px -330px;
 }
 
 .pageblanche {
     position: relative; 
     width: @pageblanchewidth; 
-    height: 1850px; 
     background-color: white; 
     margin-left: auto; 
     margin-right: auto; 
@@ -96,18 +94,21 @@ sub {
     cursor: pointer;
     border-bottom: 1px solid red;
 }
+.active {
+    display: none;
+}
 .pageblanchetexte {
-    float:left;
-    margin-bottom: 1px;
+    margin-bottom: 50px;
     clear: both;
 }
 
 .colonnes {
-    float:left;
     margin-top: 17px;
-    margin-bottom: 15px;
     clear: both;
-    width: 100%;
+    width: 755px;
+    div {
+        padding-bottom: 50px;
+    }
 }
 .quatrecolonnes {
     float:left;
@@ -122,7 +123,6 @@ sub {
     width: 30%; 
     padding-right: 0px;
     margin-right: 20px;
-    background-color: ; 
 }
 
 // PRINT
